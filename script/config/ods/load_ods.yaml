@@ -1,0 +1,8 @@
+list_tables:
+  - checkin
+  - business
+  - review
+  - tip
+  - user
+  - precipitation
+  - temperature

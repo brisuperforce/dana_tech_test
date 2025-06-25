@@ -1,0 +1,13 @@
+list_tables:
+
+  yelp_source:
+    - checkin
+    - business
+    - review
+    - tip
+    - user
+  
+  csv_source:
+    - temperature
+    - precipitation
+    

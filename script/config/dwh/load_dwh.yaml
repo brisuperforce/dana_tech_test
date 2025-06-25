@@ -1,0 +1,5 @@
+list_tables:
+  - dim_business
+  - dim_user
+  - dim_weather
+  - fct_review
