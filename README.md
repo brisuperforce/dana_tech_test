@@ -11,4 +11,4 @@ To run this project, you need:
     -- third is `load_staging_to_ods.py`, this script will insert data from staging schema into ods schema.
     -- last `load_ods_to_dwh.py`, this script will insert data from ods schema into data_warehouse schema.
 4. You need to run script by this sequence `json_to_csv_converter.py` --> `load_staging.py` --> `load_staging_to_ods.py` --> `load_ods_to_dwh.py`
-5. To run script you can use command `docker exec -it <container_id or name> python script/<python file>`
+5. To run script you can use command `docker exec -it <container_id or name> uv run python script/<python file>`
